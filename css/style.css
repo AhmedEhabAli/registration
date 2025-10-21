@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #24353f;
+}
+
+h1 {
+  color: #17a2b8;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.shadow-m {
+  box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.562);
+}
+
+.btn-outline-info:hover {
+  color: #fff;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+p a:hover {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.form-control:focus,
+.form-control {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+input {
+  caret-color: white;
+}
