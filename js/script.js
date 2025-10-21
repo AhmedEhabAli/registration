@@ -115,7 +115,7 @@ function sign() {
 
 function validateInput(element) {
   var regex = {
-    name: /^[A-Za-z ]{4,}$/,
+    name: /^[A-Za-z ]{3,}$/,
     email: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
   };
   if (regex[element.id].test(element.value)) {
@@ -134,4 +134,5 @@ function clearForm() {
   inputEmail.value = "";
   inputPassword.value = "";
 }
+
 
