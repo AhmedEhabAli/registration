@@ -95,8 +95,7 @@ if (wel && userName) {
 function sign() {
   if (
     validateInput(inputName) &&
-    validateInput(inputEmail) &&
-    validateInput(inputPassword)
+    validateInput(inputEmail)
   ) {
     var input = {
       name: inputName.value,
@@ -118,7 +117,6 @@ function validateInput(element) {
   var regex = {
     name: /^[A-Za-z ]{4,}$/,
     email: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
-    password: /^.{4,}$/,
   };
   if (regex[element.id].test(element.value)) {
     element.classList.add("is-valid");
@@ -136,3 +134,4 @@ function clearForm() {
   inputEmail.value = "";
   inputPassword.value = "";
 }
+
