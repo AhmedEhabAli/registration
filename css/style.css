@@ -39,8 +39,10 @@ p a:hover {
 .form-control {
   background-color: transparent;
   box-shadow: none;
+  color: white;
 }
 
 input {
   caret-color: white;
 }
+
